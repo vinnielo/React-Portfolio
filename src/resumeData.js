@@ -91,8 +91,8 @@ let resumeData = {
     ],
     "testimonials":[
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"Vinnie’s the real deal - incredibly adept at picking up new material and applying new technologies, while genuinely a nice guy, who is interested in the well being and advancement of his colleagues.",
+        "name":"Jesse Aldana"
       },
       {
         "description":"This is a sample testimonial",
