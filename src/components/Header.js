@@ -1,6 +1,13 @@
 import React, { Component } from "react";
-export default class Header extends Component {
+export default class Header extends Component {  
   render() {
+
+    const styles = {
+      form: {
+        fontSize: "16px"
+      },
+    };
+
     let resumeData = this.props.resumeData;
     return (
       <React.Fragment>
@@ -13,33 +20,33 @@ export default class Header extends Component {
               Hide navigation
             </a>
             <ul id="nav" className="nav">
-              <li className="current">
-                <a className="smoothscroll" href="#home">
+              <li className="current" >
+                <a className="smoothscroll" href="#home" style={styles.form}>
                   Home
                 </a>
               </li>
               <li>
-                <a className="smoothscroll" href="#about">
+                <a className="smoothscroll" href="#about" style={styles.form}>
                   About
                 </a>
               </li>
               <li>
-                <a className="smoothscroll" href="#resume">
+                <a className="smoothscroll" href="#resume" style={styles.form}>
                   Resume
                 </a>
               </li>
               <li>
-                <a className="smoothscroll" href="#portfolio">
+                <a className="smoothscroll" href="#portfolio" style={styles.form}>
                   Projects
                 </a>
               </li>
               <li>
-                <a className="smoothscroll" href="#testimonials">
+                <a className="smoothscroll" href="#testimonials" style={styles.form}>
                   Testimonials
                 </a>
               </li>
               <li>
-                <a className="smoothscroll" href="#contact">
+                <a className="smoothscroll" href="#contact" style={styles.form}>
                   Contact
                 </a>
               </li>
