@@ -1,6 +1,6 @@
 let resumeData = {
     "imagebaseurl":"http://vinnielo.github.io/",
-    "logo": "../../images/Vinnie-Lopez-white-high-res.png",
+    "logo": "../../images/Vinnie-Lopez-white-low-res.png",
     "name": "Vinnie Lopez",
     "role": "FullStack Web Developer",
     "socialLinks":[
