@@ -25,7 +25,7 @@ export default class Contact extends Component {
             </p>
             <div className="row">
               <div>
-              <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+              <form id="contact-form" >
                 <div className="form-group">
                 <label for="name">Full Name</label>
                 <input
