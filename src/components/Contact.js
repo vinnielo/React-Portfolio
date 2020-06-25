@@ -1,15 +1,20 @@
 import React, { Component } from "react";
+import API from "../utils/API";
+
 export default class Contact extends Component {
   render() {
     const styles = {
       form: {
         width: "100%",
-        backgroundColor: "#dee5f3"
+        backgroundColor: "#dee5f3",
+        color: "black"
       },
       color: {
         color: "whitesmoke"
       },
     };
+
+    
 
     return (
       <section id="contact">
@@ -20,17 +25,18 @@ export default class Contact extends Component {
             </p>
             <div className="row">
               <div>
-              <form>
-                <label>Full Name</label>
+              <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+                <div className="form-group">
+                <label for="name">Full Name</label>
                 <input
                   type="text"
-                  id="fname"
+                  id="name"
                   name="firstname"
                   placeholder="Your name.."
                   style={styles.form}
                 />
 
-                <label>Email</label>
+                <label for="exampleInputEmail">Email</label>
                 <input
                   type="email"
                   id="email"
@@ -39,14 +45,15 @@ export default class Contact extends Component {
                   style={styles.form}
                 />
 
-                <label for="subject">Subject</label>
+                <label for="message">Subject</label>
                 <textarea
-                  id="subject"
+                  id="message"
                   name="subject"
                   placeholder="Write something.."
                   style={styles.form}
                 />
-                <button>Send</button>
+                <button type="submit" className="btn btn-primary">Send</button>
+                </div>
               </form>
               </div>
             </div>

@@ -1,6 +1,6 @@
 let resumeData = {
     "imagebaseurl":"http://vinnielo.github.io/",
-    "logo": "../../images/Vinnie-Lopez-white-low-res.png",
+    "logo": "https://raw.githubusercontent.com/vinnielo/React-Portfolio/master/public/images/Vinnie-Lopez-white-low-res.png",
     "name": "Vinnie Lopez",
     "role": "FullStack Web Developer",
     "socialLinks":[
@@ -24,7 +24,7 @@ let resumeData = {
     "address":"Lakeview Terrace, CA",
     "phone": "818-679-1211",
     "email":"vinnielo01@gmail.com",
-    "resume": "/PDF/Resume 2020.pdf",
+    "resume": "./PDF/Resume 2020.pdf",
     "education":[
       {
         "UniversityName":"UCLA Extension",
@@ -74,7 +74,7 @@ let resumeData = {
       {
         "name":"Dinner and a Movie",
         "description":"Dinner and a Movie app",
-        "imgurl":"/public/images/portfolio/dinnerNaMovie.jpg",
+        "imgurl":"https://raw.githubusercontent.com/vinnielo/React-Portfolio/master/public/images/portfolio/dinnerNaMovie.jpg",
         "link": "https://sharlenemay.github.io/dinner_movie/",
         "github": "https://github.com/sharlenemay/dinner_movie",
         "icon":"fa fa-github fa-2x"
@@ -82,7 +82,7 @@ let resumeData = {
       {
         "name":"StoryTime",
         "description":"A simple app that allows the user to put their own child in a story",
-        "imgurl":"/images/portfolio/storytimeapp.jpg",
+        "imgurl":"https://raw.githubusercontent.com/vinnielo/React-Portfolio/master/public/images/portfolio/storytimeapp.jpg",
         "link": "https://fathomless-waters-70908.herokuapp.com/",
         "github": "https://github.com/vinnielo/StoryTime",
         "icon":"fa fa-github fa-2x"        

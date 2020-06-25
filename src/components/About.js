@@ -10,7 +10,7 @@ export default class About extends Component {
           <div className="three columns">
             <img
               className="profile-pic"
-              src="/images/profile.png"
+              src="https://github.com/vinnielo/React-Portfolio/blob/master/public/images/profile.png?raw=true"
               alt="VinnieLopez"
             />
           </div>
@@ -29,10 +29,10 @@ export default class About extends Component {
                   <br></br>
                   <span>{resumeData.phone}</span>
                   <br></br>
-                  <span>
+                  {/* <span>
                     <a href={resumeData.email}> {resumeData.email} </a>
                   </span>
-                  <br></br>
+                  <br></br> */}
                   <span>
                     <a href={resumeData.resume} target="_blank"> Link to Resume </a>
                   </span>
