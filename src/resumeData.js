@@ -1,5 +1,5 @@
 let resumeData = {
-    "imagebaseurl":"https://vinnielo.github.io/",
+    "imagebaseurl":"http://vinnielo.github.io/",
     "logo": "../../images/Vinnie-Lopez-white-high-res.png",
     "name": "Vinnie Lopez",
     "role": "FullStack Web Developer",
@@ -74,7 +74,7 @@ let resumeData = {
       {
         "name":"Dinner and a Movie",
         "description":"Dinner and a Movie app",
-        "imgurl":"/images/portfolio/dinnerNaMovie.jpg",
+        "imgurl":"/public/images/portfolio/dinnerNaMovie.jpg",
         "link": "https://sharlenemay.github.io/dinner_movie/",
         "github": "https://github.com/sharlenemay/dinner_movie",
         "icon":"fa fa-github fa-2x"
