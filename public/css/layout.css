@@ -209,8 +209,8 @@ ul#nav li.current a { background: linear-gradient(to top, #ffe838, #fd57bf) ;
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 200px;
+   height: 200px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
