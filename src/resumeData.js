@@ -98,7 +98,7 @@ let resumeData = {
       {
         "name":"Employee-Directory",
         "description":"An employee search directory. Filter by Name, and sort by lastName. ",
-        "imgurl":"https://cdn3.vectorstock.com/i/1000x1000/65/02/coming-soon-sale-poster-vector-1666502.jpg",
+        "imgurl":"https://github.com/vinnielo/React-Portfolio/blob/master/public/images/portfolio/Annotation%202020-07-04%20215428.png?raw=true",
         "link": "https://vinnielo.github.io/Employee-Directory/",
         "github": "https://github.com/vinnielo/Employee-Directory",
         "icon":"fa fa-github fa-2x"        
@@ -106,7 +106,7 @@ let resumeData = {
       {
         "name":"The BeefSteakHouse",
         "description":"Create a burger on this list!. Created using Handlebars",
-        "imgurl":"https://cdn3.vectorstock.com/i/1000x1000/65/02/coming-soon-sale-poster-vector-1666502.jpg",
+        "imgurl":"https://github.com/vinnielo/React-Portfolio/blob/master/public/images/portfolio/burgertime.png?raw=true",
         "link": "https://fathomless-cove-83368.herokuapp.com/",
         "github": "https://github.com/vinnielo/Burger-Time",
         "icon":"fa fa-github fa-2x"        
