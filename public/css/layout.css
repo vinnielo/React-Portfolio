@@ -102,7 +102,7 @@ header .scrolldown a {
    position: absolute;
    bottom: 30px;
    left: 50%;
-   margin-left: -29px;
+   margin-left: -37px;
    color: #fff;
    display: block;
    height: 42px;
@@ -822,12 +822,15 @@ ul#nav li.current a { background: linear-gradient(to top, #ffe838, #fd57bf) ;
 /* ------------------------------------------------------------------ */
 
 footer {
-   padding-top: 48px;
-   margin-bottom: 48px;
+   padding-top: 2px;
+   /* margin-bottom: 48px; */
    color: #303030;
    font-size: 14px;
    text-align: center;
-   position: relative;
+   position: fixed;
+   background-color: black;
+   bottom: 0;
+   width: 100%;
 }
 
 footer a, footer a:visited { color: #525252; }
@@ -837,9 +840,10 @@ footer a:hover, footer a:focus { color: #fff; }
 
 /* social links */
 footer .social-links {
-   margin: 18px 0 30px 0;
+   margin: 22px 0 5px 0;
    padding: 0;
    font-size: 30px;
+   padding-top: 1px;
 }
 footer .social-links li {
     display: inline-block;
@@ -862,8 +866,8 @@ footer .social-links li:first-child { margin-left: 0; }
 	text-decoration: none;
 	border: 0 none;
 	display: block;
-	width: 60px;
-	height: 60px;
+	width: 45px;
+	height: 45px;
 	background-color: #525252;
 
 	-webkit-transition: all 0.2s ease-in-out;
@@ -873,8 +877,8 @@ footer .social-links li:first-child { margin-left: 0; }
    transition: all 0.2s ease-in-out;
 
    color: #fff;
-   font-size: 21px;
-   line-height: 60px;
+   font-size: 20px;
+   line-height: 42px;
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }

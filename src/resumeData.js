@@ -86,7 +86,50 @@ let resumeData = {
         "link": "https://fathomless-waters-70908.herokuapp.com/",
         "github": "https://github.com/vinnielo/StoryTime",
         "icon":"fa fa-github fa-2x"        
+      },
+      {
+        "name":"React-Project 3",
+        "description":"A create your own adventure RPG game. ",
+        "imgurl":"https://cdn3.vectorstock.com/i/1000x1000/65/02/coming-soon-sale-poster-vector-1666502.jpg",
+        "link": "Coming Soon",
+        "github": "https://github.com/AnnaxGrace/react-rpg",
+        "icon":"fa fa-github fa-2x"        
+      },
+      {
+        "name":"Employee-Directory",
+        "description":"An employee search directory. Filter by Name, and sort by lastName. ",
+        "imgurl":"https://cdn3.vectorstock.com/i/1000x1000/65/02/coming-soon-sale-poster-vector-1666502.jpg",
+        "link": "https://vinnielo.github.io/Employee-Directory/",
+        "github": "https://github.com/vinnielo/Employee-Directory",
+        "icon":"fa fa-github fa-2x"        
+      },
+      {
+        "name":"The BeefSteakHouse",
+        "description":"Create a burger on this list!. Created using Handlebars",
+        "imgurl":"https://cdn3.vectorstock.com/i/1000x1000/65/02/coming-soon-sale-poster-vector-1666502.jpg",
+        "link": "https://fathomless-cove-83368.herokuapp.com/",
+        "github": "https://github.com/vinnielo/Burger-Time",
+        "icon":"fa fa-github fa-2x"        
+      },
+      {
+        "name":"Vinnie's Google Book Search",
+        "description":"Search for a book on Google Api. Save it for later. Create a list of books you are dying to read!",
+        "imgurl":"https://cdn3.vectorstock.com/i/1000x1000/65/02/coming-soon-sale-poster-vector-1666502.jpg",
+        "link": "https://vinnies-book-search.herokuapp.com/",
+        "github": "https://github.com/vinnielo/Google-Books-Search",
+        "icon":"fa fa-github fa-2x"        
+      },
+      {
+        "name":"",
+        "description":"",
+        "imgurl":"",
+        "link": "",
+        "github": "",
+        "icon":"fa fa-github fa-2x"        
       }
+      
+
+     
      
     ],
     "testimonials":[

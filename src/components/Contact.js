@@ -1,7 +1,9 @@
 import React, { Component } from "react";
-import API from "../utils/API";
+import axios from "axios"
 
 export default class Contact extends Component {
+
+  
   render() {
     const styles = {
       form: {
@@ -14,7 +16,7 @@ export default class Contact extends Component {
       },
     };
 
-    
+    let resumeData = this.props.resumeData;
 
     return (
       <section id="contact">
@@ -23,7 +25,7 @@ export default class Contact extends Component {
             <p className="lead" style={styles.color}>
               Feel free to reach out. I am always looking for new opportunities.
             </p>
-            <div className="row">
+            {/* <div className="row">
               <div>
               <form id="contact-form" >
                 <div className="form-group">
@@ -52,9 +54,30 @@ export default class Contact extends Component {
                   placeholder="Write something.."
                   style={styles.form}
                 />
-                <button type="submit" className="btn btn-primary">Send</button>
+                <button type="submit" className="btn btn-primary" onClick={this.handleSubmit}>Send</button>
                 </div>
               </form>
+              </div>
+            </div> */}
+            <div className="row">
+              <div className="columns contact-details">
+                <h2>Contact Details</h2>
+                <p className="address">
+                  <span>{resumeData.name}</span>
+                  {<br></br>}
+                  <span>{resumeData.address}</span>
+                  <br></br>
+                  <span>{resumeData.phone}</span>
+                  <br></br>
+                  <span>
+                    <a href={`mailto:${resumeData.email}`}> {resumeData.email} </a>
+                  </span>
+                  <br></br>
+                  <span>
+                    <a href={resumeData.resume} target="_blank"> Link to Resume </a>
+                  </span>
+
+                </p>
               </div>
             </div>
           </div>
