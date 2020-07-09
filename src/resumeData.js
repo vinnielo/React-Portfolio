@@ -89,8 +89,8 @@ let resumeData = {
       },
       {
         "name":"Once Upon an Adventure",
-        "description":"A create your own adventure RPG game. ",
-        "imgurl":"https://github.com/vinnielo/React-Portfolio/blob/master/public/images/portfolio/castle.pngs",
+        "description":"A create your own adventure RPG game. This game uses react and the full mern stack. It melds educational learning with a 8 bit video game feel. ",
+        "imgurl":"https://github.com/vinnielo/React-Portfolio/blob/master/public/images/portfolio/castle.png?raw=true",
         "link": "https://onceuponanadventure.herokuapp.com/",
         "github": "https://github.com/annaxgrace/once-upon-an-adventures",
         "icon":"fa fa-github fa-2x"        
