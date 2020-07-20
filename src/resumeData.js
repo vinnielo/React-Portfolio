@@ -88,9 +88,9 @@ let resumeData = {
         "icon":"fa fa-github fa-2x"        
       },
       {
-        "name":"React-Project 3",
-        "description":"A create your own adventure RPG game. ",
-        "imgurl":"https://cdn3.vectorstock.com/i/1000x1000/65/02/coming-soon-sale-poster-vector-1666502.jpg",
+        "name":"Once Upon An Adventure",
+        "description":"A create your own adventure RPG game. 8-Bit Nostalgia ",
+        "imgurl":"/public/images/portfolio/Once upon an adventure (1).png",
         "link": "Coming Soon",
         "github": "https://github.com/AnnaxGrace/react-rpg",
         "icon":"fa fa-github fa-2x"        
@@ -138,8 +138,8 @@ let resumeData = {
         "name":"Jesse Aldana"
       },
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"Great to work with. He's hardworking, brings innovative ideas to the table, and is committed to success within a team. In addition to all that, is fun to work with - he motivates the whole team!",
+        "name":"Anna Grace Conover"
       }
     ]
   }
