@@ -67,13 +67,19 @@ let resumeData = {
       },
       {
         "skillname":"MongoJS"
+      },
+      {
+        "skillname":"react-native"
+      },
+      {
+        "skillname":"SQL"
       }
 
     ],
     "portfolio":[
       {
         "name":"Dinner and a Movie",
-        "description":"Dinner and a Movie app",
+        "description":"Dinner and a Movie app. Allows a user to find and stream a movie and find a restaurant to order food. Made with HTML, CSS, AJAX",
         "imgurl":"https://raw.githubusercontent.com/vinnielo/React-Portfolio/master/public/images/portfolio/dinnerNaMovie.jpg",
         "link": "https://sharlenemay.github.io/dinner_movie/",
         "github": "https://github.com/sharlenemay/dinner_movie",
@@ -81,7 +87,7 @@ let resumeData = {
       },
       {
         "name":"StoryTime",
-        "description":"A simple app that allows the user to put their own child in a story",
+        "description":"A simple app that allows the user to put their own child in a story. Utilizes MySQL, Nodemailer, Express, and Bcrypt. ",
         "imgurl":"https://raw.githubusercontent.com/vinnielo/React-Portfolio/master/public/images/portfolio/storytimeapp.jpg",
         "link": "https://fathomless-waters-70908.herokuapp.com/",
         "github": "https://github.com/vinnielo/StoryTime",
@@ -89,8 +95,8 @@ let resumeData = {
       },
       {
         "name":"Once Upon an Adventure",
-        "description":"A create your own adventure RPG game. This game uses react and the full mern stack. It melds educational learning with a 8 bit video game feel. ",
-        "imgurl":"https://github.com/vinnielo/React-Portfolio/blob/master/public/images/portfolio/Once%20upon%20an%20adventure%20(1).png",
+        "description":"A create your own adventure RPG game. This game uses react and the full mern stack. It melds educational learning with a 8 bit video game feel. Uses ReactJS, MongoDB, CSS, Howler",
+        "imgurl":"https://github.com/vinnielo/React-Portfolio/blob/master/public/images/portfolio/Onceuponanadventure(1).png?raw=true",
         "link": "https://onceuponanadventure.herokuapp.com/",
         "github": "https://github.com/annaxgrace/once-upon-an-adventures",
         "icon":"fa fa-github fa-2x"        
