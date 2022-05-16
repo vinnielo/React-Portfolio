@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import mainImg from '../assets/images/main2.jpg';
 export default class About extends Component {
   render() {
     
@@ -10,14 +11,18 @@ export default class About extends Component {
           <div className="three columns">
             <img
               className="profile-pic"
-              src="https://github.com/vinnielo/React-Portfolio/blob/master/public/images/profile.png?raw=true"
+              src={mainImg}
               alt="VinnieLopez"
+
             />
           </div>
 
           <div className="nine columns main-col">
             <h2>About Me</h2>
             <p>{resumeData.aboutme}</p>
+            <p>{resumeData.aboutme2}</p>
+            <p>{resumeData.aboutme3}</p>
+            <p>{resumeData.aboutme4}</p>
           </div>
         </div>
       </section>

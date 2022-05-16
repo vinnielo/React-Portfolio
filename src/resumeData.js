@@ -20,7 +20,10 @@ let resumeData = {
           "className":"fa fa-instagram"
         }
       ],
-    "aboutme":"I was born and raise in California. I spent a lot of my youth in gaming and music. I built a love for it. I work hard and enjoy the team dynamic. I am currently completing the FullStack Web Development Bootcamp at UCLA Extension. I work well in the Front-end, but I love what does on in the Back-end. My skills include but aren't limited to React, Node, MySQL, Mongo, Mongoose, Git, Javascript, Jquery, HTML5, CSS. I look forward to the future and learning new and exciting skills in the Web Development field!",
+    "aboutme":`Hey there and welcome! My name is Jose Lopez, aka Vinnie, and I am a highly innovative full stack developer and coder who aims to not only meet expectations, but exceed them every time. Overall, I have a strong professional background involving diverse front-end and back-end frameworks, full stack coding, and understand the various programming languages to create spearheading, aesthetically pleasing apps/websites that operate at maximum capacity.`,
+    "aboutme2":`A little bit about myself, I am a family-oriented person who was born and raised in Los Angeles and spent the majority of my life in the San Fernando Valley. Growing up as a middle child with two older brothers, one older sister, and one younger sister who is disabled is the core reason why I am so adamant about putting family first and helping others succeed in life. With that as my rooted foundation, I chose to intertwine my passion for technology and coding, using that as my way to genuinely help people expand their knowledge and obtain optimal business growth within the competitive digital world. To date, I have earned the Full Stack Coding Boot Camp certification from UCLA, am the Co-Founder of Third Project Development, and have been coding full-time for over a year now. `,
+    "aboutme3": `In the end, nothing makes me happier than helping others achieve their development and/or coding objectives, all while having a fun experience along the way. I have a true ardency for what I do, am a hardcore team player, and demonstrate that by providing powerhouse services that result in high functioning, profitable platforms that provoke invested attraction. This, along with my rich history in the field and reputation for always putting my clients' best interests first, can give you the confidence that whatever it is you are looking to create or become educated in, I am the guy who can make it happen.`,
+    "aboutme4": `I love what I do and am always staying updated with the ever-evolving industry trends to give my clients the white glove support they deserve. However, when I am not working, you can often find me playing video games (primarily PlayStation, but Xbox isn't too shabby either), enjoying family movie nights, and hosting a weekly YouTube show called ‘The Screen Squad’ with my brothers.`,
     "address":"Lakeview Terrace, CA",
     "phone": "818-679-1211",
     "email":"vinnielo01@gmail.com",
@@ -35,6 +38,13 @@ let resumeData = {
       }
     ],
     "work":[
+      {
+        "CompanyName":"Third Project Development",
+        "specialization":"Co-Founder/Full-Stack Web Developer",
+        "MonthOfLeaving":"open",
+        "YearOfLeaving":"",
+        "Achievements":""
+      },
       {
         "CompanyName":"Westlake Financial Services",
         "specialization":"Business Development Lead",
@@ -60,21 +70,29 @@ let resumeData = {
         "skillname":"CSS"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"Reactjs/React Native"
       },
       {
         "skillname":"Javascript"
       },
       {
-        "skillname":"MongoJS"
+        "skillname":"Database: MongoDB/MySQL/Sequelize/Firebase"
       },
       {
-        "skillname":"react-native"
+        "skillname":"AWS"
       },
       {
-        "skillname":"SQL"
-      }
-
+        "skillname":"Apollo/GraphQL"
+      },
+      {
+        "skillname":"PHP"
+      },  
+      {
+        "skillname":"Magento 2"
+      },
+      {
+        "skillname":"Linux: Debian/Ubuntu"
+      },
     ],
     "portfolio":[
       {
@@ -110,11 +128,11 @@ let resumeData = {
         "icon":"fa fa-github fa-2x"        
       },
       {
-        "name":"The BeefSteakHouse",
-        "description":"Create a burger on this list!. Created using Handlebars",
-        "imgurl":"https://github.com/vinnielo/React-Portfolio/blob/master/public/images/portfolio/burgertime.png?raw=true",
-        "link": "https://fathomless-cove-83368.herokuapp.com/",
-        "github": "https://github.com/vinnielo/Burger-Time",
+        "name":"Children's Behavioral Services",
+        "description":"",
+        "imgurl":"https://scontent-lax3-2.xx.fbcdn.net/v/t1.6435-9/90792531_205220287581725_6988262818269102080_n.jpg?_nc_cat=106&ccb=1-6&_nc_sid=973b4a&_nc_ohc=hOyzWfD3UzYAX8peuKZ&_nc_oc=AQnvDuOJouYsuEIhYkFrLC0-VEQEM20FzF6ttPPnJ2oRZjkJBAgXBScVcr1odW1KgCY&_nc_ht=scontent-lax3-2.xx&oh=00_AT_bRwhck9hOALcL4k1hfdwxjz_2tvVRNRPO7juo88_fag&oe=62AA0CCF",
+        "link": "http://childrensuniversal.com/ ",
+        "github": "#",
         "icon":"fa fa-github fa-2x"        
       },
       {
@@ -124,19 +142,7 @@ let resumeData = {
         "link": "https://vinnies-book-search.herokuapp.com/",
         "github": "https://github.com/vinnielo/Google-Books-Search",
         "icon":"fa fa-github fa-2x"        
-      },
-      {
-        "name":"",
-        "description":"",
-        "imgurl":"",
-        "link": "",
-        "github": "",
-        "icon":"fa fa-github fa-2x"        
-      }
-      
-
-     
-     
+      } 
     ],
     "testimonials":[
       {

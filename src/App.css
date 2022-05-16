@@ -21,6 +21,12 @@
 .App-link {
   color: #61dafb;
 }
+.profile-pic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
 
 @keyframes App-logo-spin {
   from {

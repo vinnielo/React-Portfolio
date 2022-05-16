@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -212,6 +212,7 @@ ul#nav li.current a { background: linear-gradient(to top, #ffe838, #fd57bf) ;
    width: 200px;
    height: 200px;
    border-radius: 100%;
+   image-rendering: optimizeQuality;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
